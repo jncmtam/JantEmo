@@ -1,0 +1,58 @@
+# Python-specific ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environment
+emotion_env/
+venv/
+env/
+*.egg-info/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Data files (large datasets)
+data/fer2013/
+data/custom_data/
+
+# Model files (large trained models)
+models/emotion_model.pth
+models/shape_predictor_68_face_landmarks.dat
+
+# Log files
+logs/training_log.csv
+logs/state_history.csv
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+temp.mp3
+
+# Assets (optional, if you don't want to commit large media files)
+assets/emojis/*
+assets/sounds/*
+
+# Large library files
+*.so
+*.dylib
+*.egg
+
+# Other
+*.log
+*.csv
+*.pth
+*.dat
